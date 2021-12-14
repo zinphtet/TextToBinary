@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+/* button{
+    margin-left: 40%;
+    padding: 7px 30px;
+} */
+
+button{
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+#input{
+    outline: none;
+}
+ #output{
+    width: 260px;
+   min-height: 100px;
+   max-height: 10000px;
+    border: 1px solid black;
+}
+
+    #convert{
+        margin-top:20px;
+    }
+
+    #output {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
